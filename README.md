@@ -10,7 +10,7 @@ allprojects {
 		}
 	}
   ```
- >Step 2. Add the dependency to your build.gradle(app) file
+ >Step 2. Add the dependency to your build.gradle (app) file
  
  ```gradle
  dependencies {
