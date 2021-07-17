@@ -41,3 +41,5 @@ allprojects {
     drawing_view.setSizeForBrush(12) // takes value from 0-35
         
 ```
+## That's it!
+If you liked it then show some love by giving a star.
