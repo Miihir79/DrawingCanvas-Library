@@ -39,6 +39,9 @@ allprojects {
     drawing_view.setBrushAlpha(120)// values from 0-255
     drawing_view.setBrushColor(R.color.white) 
     drawing_view.setSizeForBrush(12) // takes value from 0-35
+    drawing_view.undo() 
+    drawing_view.redo()
+    drawing_view.clearDrawingBoard()
         
 ```
 ## That's it!
