@@ -8,6 +8,8 @@ library for drawing app canvas
 
 https://user-images.githubusercontent.com/66465511/126068320-9d1f0971-2f0f-4ba7-a16e-9815aacb32ee.mp4
 
+## How to use
+
 > Step 1.Add this maven dependency to your build.gradle (project) file
 
 ```gradle
