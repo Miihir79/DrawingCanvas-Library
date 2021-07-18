@@ -5,9 +5,9 @@
 library for drawing app canvas
 
 ## Features
-### **Size** and **transperancy** manupulation of brush
-### **Undo** and **Redo** fucntionality available
-### **Clear canvas** feature
+- **Size** and **transperancy** manupulation of brush
+- **Undo** and **Redo** fucntionality available
+- **Clear canvas** feature
 
 ## Demo
 
