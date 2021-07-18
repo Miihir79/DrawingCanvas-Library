@@ -11,6 +11,8 @@ library for drawing app canvas
 
 ## Demo
 
+Watch the explaination on youtube: https://www.youtube.com/watch?v=Dnm3SI_OIko
+
 https://user-images.githubusercontent.com/66465511/126068320-9d1f0971-2f0f-4ba7-a16e-9815aacb32ee.mp4
 
 ## How to use
