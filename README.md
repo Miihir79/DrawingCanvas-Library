@@ -27,18 +27,14 @@ allprojects {
   <com.mihir.drawingcanvas.drawingView
         android:id="@+id/drawing_view"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        android:layout_height="match_parent">
 
     </com.mihir.drawingcanvas.drawingView>
 ```
 
 >Step 4. Refrence the canvas in XML to use it's functions
 
-```
+```Kotlin
     drawing_view.setBrushAlpha(120)// values from 0-255
     drawing_view.setBrushColor(R.color.white) 
     drawing_view.setSizeForBrush(12) // takes value from 0-35
