@@ -3,7 +3,7 @@
 [![GitHub license](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 library for drawing app canvas
-> Step 1.Add this dependency to your build.gradle (project) file
+> Step 1.Add this maven dependency to your build.gradle (project) file
 
 ```gradle
 allprojects {
