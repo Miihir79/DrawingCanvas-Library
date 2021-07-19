@@ -64,5 +64,38 @@ allprojects {
     drawing_view.clearDrawingBoard()
         
 ```
+
+## Demo of all the functions
+### setBrushAlpha
+
+This function takes the value from 0-255. You can check it's implementation here:<br>
+
+<img src="https://user-images.githubusercontent.com/66465511/126197548-15777ce6-c18e-41b4-b119-4dfda6c5eb23.gif" width="250" />
+
+### setBrushColor
+
+This function takes any color as an input. You can check it's implementation here: 
+
+<img src="https://user-images.githubusercontent.com/66465511/126198881-8496b4eb-4646-435f-b480-2bc623db1089.gif" width="250" />
+
+### setSizeForBrush
+
+This function takes any value from 0-35 as an input. You can check it's implementation here: 
+
+<img src="https://user-images.githubusercontent.com/66465511/126199495-a1e4cc19-5a06-48f6-b6a8-f1301c82db1f.gif" width="250" />
+
+### undo and redo
+
+These functions can undo and redo your strokes. You can check it's implementation here: 
+
+<img src="https://user-images.githubusercontent.com/66465511/126199690-74ff6303-e18c-4b7b-9d07-c20bb27c492a.gif" width="250" />
+
+### clearDrawingBoard
+
+This function clears all the strokes and clear the drawing board. But carefully you wont be able to undo this change! You can check it's implementation here: 
+
+<img src="https://user-images.githubusercontent.com/66465511/126199980-e8a1137b-4f47-4989-8db9-f2e76c0b6f8f.gif" width="250" />
+
+
 ## That's it!
 If you liked it then show some love by giving a star.
