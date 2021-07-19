@@ -20,7 +20,11 @@ https://user-images.githubusercontent.com/66465511/126068320-9d1f0971-2f0f-4ba7-
 
 ## How to use
 
-> Step 1.Add this maven dependency to your build.gradle (project) file
+### You can refer to this Video:
+https://youtu.be/Dnm3SI_OIko
+
+## OR Follow the steps
+> Step 1. Add this maven dependency to your build.gradle (project) file
 
 ```gradle
 allprojects {
