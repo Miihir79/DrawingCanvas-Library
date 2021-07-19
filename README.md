@@ -2,12 +2,15 @@
 
 [![GitHub license](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-library for drawing app canvas
+Library for drawing app canvas
 
 ## Features
-- **Size** and **transperancy** manupulation of brush
+- **Size** , **transperancy** and **color** manupulation of brush
+ -- Using ***setSizeForBrush(), setBrushAlpha() and setBrushColor()*** respectively
 - **Undo** and **Redo** fucntionality available
+-- Using ***undo() and redo()*** respectively
 - **Clear canvas** feature
+-- Using ***clearDrawingBoard()***
 
 ## Demo
 
