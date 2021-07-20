@@ -99,3 +99,7 @@ This function clears all the strokes and clear the drawing board. But carefully 
 
 ## That's it!
 If you liked it then show some love by giving a star.
+
+## Author and contributions:
+I, Mihir Shah has made this library and will maintain it.
+All contributions are welcomed!
