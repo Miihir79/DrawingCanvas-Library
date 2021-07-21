@@ -119,6 +119,12 @@ class drawingView(context: Context, attrs: AttributeSet) : View(context,attrs){
         mDrawPaint!!.color = color
     }
 
+    // you can pass a color according to your background and the default is white
+    fun erase(colorBackground: Int= Color.WHITE){
+        currentColor = colorBackground
+        mDrawPaint!!.color = colorBackground
+    }
+
     fun undo(){
         if (mPaths.size > 0){
             mUndoPath.add(mPaths[mPaths.size -1])
