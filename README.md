@@ -9,6 +9,7 @@ Library for drawing app canvas
  -- Using ***setSizeForBrush(), setBrushAlpha() and setBrushColor()*** respectively
 - **Undo** and **Redo** fucntionality available
 -- Using ***undo() and redo()*** respectively
+- Using **erase()** function to match the background color to the brush color
 - **Clear canvas** feature
 -- Using ***clearDrawingBoard()***
 
@@ -61,6 +62,7 @@ allprojects {
     drawing_view.setSizeForBrush(12) // takes value from 0-35
     drawing_view.undo() 
     drawing_view.redo()
+    drawing_view.redo(Color.WHITE) // give the color same as the background color
     drawing_view.clearDrawingBoard()
         
 ```
