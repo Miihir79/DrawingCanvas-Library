@@ -121,6 +121,8 @@ class drawingView(context: Context, attrs: AttributeSet) : View(context,attrs){
 
     // you can pass a color according to your background and the default is white
     fun erase(colorBackground: Int= Color.WHITE){
+        mAlpha = 255
+        mDrawPaint!!.alpha = 255
         currentColor = colorBackground
         mDrawPaint!!.color = colorBackground
     }
