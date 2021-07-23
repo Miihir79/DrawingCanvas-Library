@@ -104,9 +104,9 @@ class drawingView(context: Context, attrs: AttributeSet) : View(context,attrs){
         return true
 
     }
-    
+
     @SuppressLint("SupportAnnotationUsage")
-    @IntRange(from = 0, to = 70)
+    @IntRange(from = 0, to = 200)
     fun setSizeForBrush(newSize: Int){
         mBrushSize = TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP,
             newSize.toFloat(),resources.displayMetrics).toInt()
