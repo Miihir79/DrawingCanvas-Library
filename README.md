@@ -59,7 +59,7 @@ allprojects {
 ```Kotlin
     drawing_view.setBrushAlpha(120)// values from 0-255
     drawing_view.setBrushColor(R.color.white) 
-    drawing_view.setSizeForBrush(12) // takes value from 0-35
+    drawing_view.setSizeForBrush(12) // takes value from 0-70
     drawing_view.undo() 
     drawing_view.redo()
     drawing_view.redo(Color.WHITE) // give the color same as the background color
@@ -84,7 +84,7 @@ Link for the color picker: https://github.com/Dhaval2404/ColorPicker
 
 ### setSizeForBrush
 
-This function takes any value from 0-35 as an input. You can check it's implementation here: 
+This function takes any value from 0-70 as an input. You can check it's implementation here: 
 
 <img src="https://user-images.githubusercontent.com/66465511/126199495-a1e4cc19-5a06-48f6-b6a8-f1301c82db1f.gif" width="250" />
 
