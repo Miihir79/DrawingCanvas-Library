@@ -39,7 +39,7 @@ allprojects {
  
  ```gradle
  dependencies {
-	        implementation 'com.github.Miihir79:DrawingCanvas:1.0.3'
+	        implementation 'com.github.Miihir79:DrawingCanvas:1.0.4'
 	}
   ```
   
