@@ -39,7 +39,7 @@ allprojects {
  
  ```gradle
  dependencies {
-	        implementation 'com.github.Miihir79:DrawingCanvas:1.0.2'
+	        implementation 'com.github.Miihir79:DrawingCanvas:1.0.3'
 	}
   ```
   
@@ -79,6 +79,8 @@ This function takes the value from 0-255. You can check it's implementation here
 This function takes any color as an input. You can check it's implementation here: 
 
 <img src="https://user-images.githubusercontent.com/66465511/126198881-8496b4eb-4646-435f-b480-2bc623db1089.gif" width="250" />
+
+Link for the color picker: https://github.com/Dhaval2404/ColorPicker
 
 ### setSizeForBrush
 
