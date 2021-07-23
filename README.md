@@ -80,6 +80,8 @@ This function takes any color as an input. You can check it's implementation her
 
 <img src="https://user-images.githubusercontent.com/66465511/126198881-8496b4eb-4646-435f-b480-2bc623db1089.gif" width="250" />
 
+Link for the color picker: https://github.com/Dhaval2404/ColorPicker
+
 ### setSizeForBrush
 
 This function takes any value from 0-35 as an input. You can check it's implementation here: 
