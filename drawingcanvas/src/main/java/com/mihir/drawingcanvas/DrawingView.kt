@@ -7,6 +7,8 @@ import android.util.AttributeSet
 import android.util.TypedValue
 import android.view.MotionEvent
 import android.view.View
+import androidx.annotation.IntRange
+import java.util.Date.from
 
 class drawingView(context: Context, attrs: AttributeSet) : View(context,attrs){
 
@@ -102,17 +104,22 @@ class drawingView(context: Context, attrs: AttributeSet) : View(context,attrs){
         return true
 
     }
-
+    
+    @SuppressLint("SupportAnnotationUsage")
+    @IntRange(from = 0, to = 70)
     fun setSizeForBrush(newSize: Int){
         mBrushSize = TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP,
             newSize.toFloat(),resources.displayMetrics).toInt()
         mDrawPaint!!.strokeWidth = mBrushSize.toFloat()
     }
 
+    @SuppressLint("SupportAnnotationUsage")
+    @IntRange(from = 0,to = 255)
     fun setBrushAlpha(newAlpha:Int){
         mAlpha = newAlpha
         mDrawPaint!!.alpha = newAlpha
     }
+
 
     fun setBrushColor(color: Int){
         currentColor = color
