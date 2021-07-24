@@ -113,6 +113,10 @@ class drawingView(context: Context, attrs: AttributeSet) : View(context,attrs){
         mDrawPaint!!.strokeWidth = mBrushSize.toFloat()
     }
 
+    fun getBrushSize(): Int {
+        return mBrushSize
+    }
+
     @SuppressLint("SupportAnnotationUsage")
     @IntRange(from = 0,to = 255)
     fun setBrushAlpha(newAlpha:Int){
@@ -120,10 +124,18 @@ class drawingView(context: Context, attrs: AttributeSet) : View(context,attrs){
         mDrawPaint!!.alpha = newAlpha
     }
 
+    fun getBrushAlpha(): Int {
+        return mAlpha
+    }
+
 
     fun setBrushColor(color: Int){
         currentColor = color
         mDrawPaint!!.color = color
+    }
+
+    fun getBrushColor(): Int {
+        return currentColor
     }
 
     // you can pass a color according to your background and the default is white
@@ -156,7 +168,11 @@ class drawingView(context: Context, attrs: AttributeSet) : View(context,attrs){
         invalidate()
 
     }
-    internal inner class CustomPath(var color:Int , var brushThickness:Int, var alpha:Int) : Path() {
+
+    fun getDrawing(): ArrayList<CustomPath> {
+        return mPaths
+    }
+    inner class CustomPath(var color:Int , var brushThickness:Int, var alpha:Int) : Path() {
 
 
     }
