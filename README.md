@@ -12,6 +12,7 @@ Library for drawing app canvas
 - Using **erase()** function to match the background color to the brush color
 - **Clear canvas** feature
 -- Using ***clearDrawingBoard()***
+-- Getter methods to get the current values of the attribute and also the drawing itself.
 
 ## Demo
 
@@ -39,7 +40,7 @@ allprojects {
  
  ```gradle
  dependencies {
-	        implementation 'com.github.Miihir79:DrawingCanvas:1.0.4'
+	        implementation 'com.github.Miihir79:DrawingCanvas:1.1.0'
 	}
   ```
   
