@@ -2,6 +2,8 @@
 
 [![GitHub license](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
+Look at it's working demo here: https://play.google.com/store/apps/details?id=com.mihir.drawingapp
+
 Library for drawing app canvas
 
 ## Features
