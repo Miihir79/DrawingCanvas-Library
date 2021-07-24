@@ -5,7 +5,7 @@
 Library for drawing app canvas
 
 ## Features
-- **Size** , **transperancy** and **color** manupulation of brush
+- **Size** , **transperancy** and **color** manipulation of brush
  -- Using ***setSizeForBrush(), setBrushAlpha() and setBrushColor()*** respectively
 - **Undo** and **Redo** fucntionality available
 -- Using ***undo() and redo()*** respectively
