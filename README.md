@@ -14,7 +14,7 @@ Library for drawing app canvas
 - Using **erase()** function to match the background color to the brush color
 - **Clear canvas** feature
 -- Using ***clearDrawingBoard()***
--- Getter methods to get the current values of the attribute and also the drawing itself.
+- Getter methods to get the current values of the attribute and also the drawing itself.
 
 ## Demo
 
