@@ -59,7 +59,8 @@ class drawingView(context: Context, attrs: AttributeSet) : View(context,attrs){
         }
         if(!mDrawPath!!.isEmpty){
             mDrawPaint!!.strokeWidth = mDrawPath!!.brushThickness.toFloat()
-            mDrawPaint!!.color=  mDrawPaint!!.color
+            mDrawPaint!!.color=  mDrawPath!!.color
+            mDrawPaint!!.alpha = mDrawPath!!.alpha
             canvas?.drawPath(mDrawPath!!,mDrawPaint!!)
         }
 
