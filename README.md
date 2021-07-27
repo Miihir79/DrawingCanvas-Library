@@ -2,16 +2,19 @@
 
 [![GitHub license](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
+Look at it's working demo here: https://play.google.com/store/apps/details?id=com.mihir.drawingapp
+
 Library for drawing app canvas
 
 ## Features
-- **Size** , **transperancy** and **color** manupulation of brush
+- **Size** , **transperancy** and **color** manipulation of brush
  -- Using ***setSizeForBrush(), setBrushAlpha() and setBrushColor()*** respectively
 - **Undo** and **Redo** fucntionality available
 -- Using ***undo() and redo()*** respectively
 - Using **erase()** function to match the background color to the brush color
 - **Clear canvas** feature
 -- Using ***clearDrawingBoard()***
+- Getter methods to get the current values of the attribute and also the drawing itself.
 
 ## Demo
 
@@ -39,7 +42,7 @@ allprojects {
  
  ```gradle
  dependencies {
-	        implementation 'com.github.Miihir79:DrawingCanvas:1.0.4'
+	        implementation 'com.github.Miihir79:DrawingCanvas:1.1.0'
 	}
   ```
   
@@ -62,8 +65,15 @@ allprojects {
     drawing_view.setSizeForBrush(12) // takes value from 0-200
     drawing_view.undo() 
     drawing_view.redo()
-    drawing_view.redo(Color.WHITE) // give the color same as the background color
+    drawing_view.erase(Color.WHITE) // give the color same as the background color
     drawing_view.clearDrawingBoard()
+    
+    //getter methods
+    val alpha = drawing_view.getBrushAlpha() // returns INT
+    val brushSize = drawing_view.getBrushSize() // returns INT
+    val brushColor = drawing_view.getBrushColor() // returns INT
+    
+    val drawing = drawing_view.getDrawing() // returns ArrayList<CustomPath>(); where CustomPath(var color:Int , var brushThickness:Int, var alpha:Int)
         
 ```
 
