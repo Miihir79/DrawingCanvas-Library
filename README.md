@@ -110,6 +110,8 @@ This function clears all the strokes and clear the drawing board. But carefully 
 
 <img src="https://user-images.githubusercontent.com/66465511/126199980-e8a1137b-4f47-4989-8db9-f2e76c0b6f8f.gif" width="250" />
 
+### getBrushAlpha
+This functions returns Integer value of alpha of the brush which will be in the range of 0-255
 
 ## That's it!
 If you liked it then show some love by giving a star.
