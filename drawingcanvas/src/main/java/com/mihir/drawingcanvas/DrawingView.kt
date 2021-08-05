@@ -105,7 +105,10 @@ class drawingView(context: Context, attrs: AttributeSet) : View(context,attrs){
         return true
 
     }
-
+    /**
+     * Helps setting the thickness of brush stroke
+     * @param newSize Int 0-200
+     */
     @SuppressLint("SupportAnnotationUsage")
     @IntRange(from = 0, to = 200)
     fun setSizeForBrush(newSize: Int){
@@ -117,7 +120,10 @@ class drawingView(context: Context, attrs: AttributeSet) : View(context,attrs){
     fun getBrushSize(): Int {
         return mBrushSize
     }
-
+    /**
+     * Helps setting the transparency of brush stroke
+     * @param newAlpha Int 0-255
+     */
     @SuppressLint("SupportAnnotationUsage")
     @IntRange(from = 0,to = 255)
     fun setBrushAlpha(newAlpha:Int){
@@ -129,24 +135,36 @@ class drawingView(context: Context, attrs: AttributeSet) : View(context,attrs){
         return mAlpha
     }
 
-
+    /**
+     * Helps to set the color of brush
+     * @param color Int
+     */
     fun setBrushColor(color: Int){
         currentColor = color
         mDrawPaint!!.color = color
     }
-
+    /**
+     * Helps to set the color of brush
+     * @return color Int
+     */
     fun getBrushColor(): Int {
         return currentColor
     }
 
     // you can pass a color according to your background and the default is white
+    /**
+     * Helps to set the color of brush
+     * @param color Int default white
+     */
     fun erase(colorBackground: Int= Color.WHITE){
         mAlpha = 255
         mDrawPaint!!.alpha = 255
         currentColor = colorBackground
         mDrawPaint!!.color = colorBackground
     }
-
+    /**
+     * will undo strokes, can be changed by redo()
+     */
     fun undo(){
         if (mPaths.size > 0){
             mUndoPath.add(mPaths[mPaths.size -1])
@@ -155,6 +173,9 @@ class drawingView(context: Context, attrs: AttributeSet) : View(context,attrs){
         }
     }
 
+    /**
+     * will redo the undo-ed strokes
+     */
     fun redo(){
         if (mUndoPath.size >0){
             mPaths.add(mUndoPath[mUndoPath.size -1])
@@ -163,7 +184,9 @@ class drawingView(context: Context, attrs: AttributeSet) : View(context,attrs){
         }
 
     }
-
+    /**
+     * will remove all the stores but not those saved in redo()
+     */
     fun clearDrawingBoard(){
         mPaths.clear()
         invalidate()
