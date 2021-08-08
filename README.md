@@ -28,7 +28,7 @@ https://user-images.githubusercontent.com/66465511/126068320-9d1f0971-2f0f-4ba7-
 https://youtu.be/Dnm3SI_OIko
 
 ### OR Follow these steps:
-> Step 1. Add this maven dependency to your build.gradle (project) file
+> Step 1. Add this maven dependency to your build.gradle (project) file / settings.gradle for new version
 
 ```gradle
 allprojects {
