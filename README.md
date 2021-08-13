@@ -2,9 +2,10 @@
 
 [![GitHub license](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
+Library for drawing app canvas with features like undo redo, color & transperency change, Integrated into your app easily.
+
 Look at it's working demo here: https://play.google.com/store/apps/details?id=com.mihir.drawingapp
 
-Library for drawing app canvas
 
 ## Features
 - **Size** , **transperancy** and **color** manipulation of brush
