@@ -1,6 +1,6 @@
 # DrawingCanvas
 
-[![GitHub license](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![GitHub license](https://img.shields.io/badge/License-GPL3.0-blue.svg)](LICENSE)
 
 Library for drawing app canvas with features like undo redo, color & transperency change, Integrated into your app easily.
 
