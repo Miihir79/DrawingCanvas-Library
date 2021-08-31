@@ -78,6 +78,15 @@ allprojects {
         
 ```
 
+### Functions
+
+| Explanation               | Parameter Name          | Type       |  Values        |
+| ------------------------- | ----------------------- | ---------- | -------------- |
+| Set Brush Color           | **setBrushColor()**     | color      | any color      | 
+| Set Brush Alpha           | **setBrushAlpha()**     | Int  	   | 0-255          |
+| Set Brush Size            | **setSizeForBrush()**   | Int        | 0-200          |
+| Set eraser color          | **erase()**             | color      | any color      | 
+
 ## Demo of all the functions
 ### setBrushAlpha
 
