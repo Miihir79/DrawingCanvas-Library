@@ -6,7 +6,11 @@ Library for drawing app canvas with features like undo redo, color & transperenc
 
 #### Look at it's *working demo* on <a href="https://play.google.com/store/apps/details?id=com.mihir.drawingapp"> **Playstore**</a>.
 
-https://playbadges.pavi2410.com/badge/full?id=com.mihir.drawingapp&theme=dark
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://playbadges.pavi2410.com/badge/full?id=com.mihir.drawingapp&theme=dark">
+  <img alt="PlayBadges Card Folo" src="https://playbadges.pavi2410.com/badge/full?id=com.mihir.drawingapp&theme=dark">
+</picture>
+
 
 ## Features
 - **Size** , **transperancy** and **color** manipulation of brush
